@@ -1,42 +1,87 @@
 html{
 	font-size: 16px;
+	margin-bottom: 10rem;
+	margin-top: 2rem;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Karma', serif;
   text-align: center;
   background-color: #f7f7f7;
   margin: 0 auto;
+  width: 50%;
 }
 
 
 h1 {
 	font-size: 3rem;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Karma', serif;
+	color: #E41B1B;
+	margin-bottom: -1.5rem;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-family: 'Karma', serif;
+	color: #1a1a1a;
+	font-weight: bolder;
+	text-align: left;
+}
+
+h3 {
+	font-size: 1.2rem;
+	font-family: 'Karma', serif;
 	color: #333333;
-	line-height: 4rem;
+	font-weight: normal;
 }
 
 p{
-	font-size: 1.125rem;
-	line-height: 1.8rem;
+	font-size: 1.25rem;
 	font-weight: 400;
-	color: #555555;
+	color: #1a1a1a;
+	text-align: left;
 }
 
+a{
+	color: #fff;
+	text-decoration: none;
+}
 
 img{
-	width: 50%;
+	width: 100%;
 }
 
+button{
+	text-align: left;
+	padding: 1rem 3rem .5rem 3rem;
+	font-size: 1.25rem;
+	font-family: 'Karma', serif;
+	font-weight: bolder;
+	background-color: #E41B1B;
+	color: #ffffff;
+	border: 1px solid #E41B1B;
+	border-radius: .125rem;
+}
+
+footer{
+	font-size: 0.875rem;
+	font-family: 'Karma', serif;
+	color: #999;
+	font-weight: normal;
+	text-align: center;
+}
 
 @media screen and (max-width: 600px) {
 	html{
-		font-size: 12px;
+		font-size: 14px;
 	}
+	body{
+		width: 90%;
+	}
+
 	h1{
 		font-size: 3rem;
-		line-height: 3.2rem;
 	}
 	img{
 		width: 100%;
